@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a master student in Computer Graphics, Vision, Imaging in University College London. I received my B.Eng degree from University of Electronics and Technology of China.
+I am currently a master student in Computer Graphics, Vision, Imaging in [University College London](https://www.ucl.ac.uk). I received my B.Eng degree from [University of Electronics and Technology of China](https://en.uestc.edu.cn).
 
+# Research Interests
 My current research interests focus on Neural Rendering(NeRF, 3DGS), Neural Implicits, 3D reconstruction, Face reenactment
