@@ -15,4 +15,4 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-Currenly NO publications. Working on ICASSPA 2024.
+Currenly NO publications. Working on ICASSP 2024.
