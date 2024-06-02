@@ -10,4 +10,4 @@ redirect_from:
 I am currently a master student in Computer Graphics, Vision, Imaging in [University College London](https://www.ucl.ac.uk). I received my B.Eng degree in Communication Engineering from [University of Electronic and Technology of China](https://en.uestc.edu.cn).
 
 # Research Interests
-My current research interests focus on Neural Rendering(NeRF, 3DGS), Neural Implicits, 3D reconstruction, Face reenactment
+My current research interests focus on Neural Rendering(NeRF, 3DGS), Audio-Driven taking face generation, Neural Implicits, Neural 3D reconstruction
