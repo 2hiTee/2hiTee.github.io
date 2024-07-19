@@ -15,4 +15,4 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-Currenly NO publications. Working on ICASSP 2025.
+Currenly NO publications. Working on AAAI 2025 / CVPR 2025
