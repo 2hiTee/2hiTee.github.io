@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 I am currently a master student in Computer Graphics, Vision, Imaging in [University College London](https://www.ucl.ac.uk). I received my B.Eng degree in Communication Engineering from [University of Electronic and Technology of China](https://en.uestc.edu.cn).
-//
+
 I will join Westlake University September 2024 as a Research Assistant, collaborate with Professor Chi Zhang.
 
 # Research Interests
