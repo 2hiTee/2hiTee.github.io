@@ -12,4 +12,4 @@ I am currently a master student in Computer Graphics, Vision, Imaging in [Univer
 I will join Westlake University September 2024 as a Research Assistant, collaborate with Professor [Chi Zhang](https://icoz69.github.io).
 
 # Research Interests
-My current research interests focus on Neural Rendering(NeRF, 3DGS), Audio-Driven Talking Portrait, Digital Human，Neural 3D reconstruction
+My current research interests focus on Neural Rendering(NeRF, 3DGS), Audio-Driven Talking Portrait, Digital Human, Neural 3D reconstruction
