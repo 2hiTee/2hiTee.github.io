@@ -15,4 +15,5 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-Currenly NO publications. Working on Eurographics 2025.
+L3D: Enhancing 2D Talking Portraits Synthesis Learning with Pitch information using 3D Blendshapes Priors \
+**Yanming Yang**, Wenhao Rao, Ifat Yasin
