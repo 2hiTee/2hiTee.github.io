@@ -9,7 +9,7 @@ redirect_from:
 
 I was a master student in Computer Graphics, Vision, Imaging in [University College London](https://www.ucl.ac.uk) from 2023-2024. I received my B.Eng degree in Communication Engineering from [University of Electronic and Technology of China](https://en.uestc.edu.cn) from 2019-2023.
 
-I am currently a Research Assistant in [Westlake University](https://en.westlake.edu.cn), collaborating with Professor [Chi Zhang](https://icoz69.github.io).
+I am currently a Research Assistant in [Westlake University](https://en.westlake.edu.cn) since September 2024, collaborating with Professor [Chi Zhang](https://icoz69.github.io).
 
 # Research Interests
 My current research interests focus on Neural Rendering(NeRF, 3DGS), Audio-Driven Talking Portrait, 3D reconstruction/Generation/Editing.
