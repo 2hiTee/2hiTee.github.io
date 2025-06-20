@@ -13,3 +13,15 @@ I am currently a Research Assistant in [Westlake University](https://en.westlake
 
 # Research Interests
 My current research interests focus on Neural Rendering(NeRF, 3DGS), Audio-Driven Talking Portrait, 3D reconstruction/Generation/Editing.
+
+# Publications
+(* denotes corresponding author)
+
+FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing \
+Guangzhao Li, **Yanming Yang**, Chenxi Song, Chi Zhang*
+
+L3D: Enhancing 2D Talking Portraits Synthesis Learning with Pitch information using 3D Blendshapes Priors \
+**Yanming Yang**, Wenhao Rao, Ifat Yasin*
+
+Deformable gaussian splatting for 360 degree surface reconstruction \
+Wenhao Rao, **Yanming Yang**, He Wang* 
