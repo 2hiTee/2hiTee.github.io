@@ -17,7 +17,7 @@ My current research interests focus on Neural Rendering(NeRF, 3DGS), Audio-Drive
 # Publications
 (* denotes corresponding author)
 
-FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing \
+[FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing](https://flowdirector-edit.github.io) \
 Guangzhao Li, **Yanming Yang**, Chenxi Song, Chi Zhang*
 
 L3D: Enhancing 2D Talking Portraits Synthesis Learning with Pitch information using 3D Blendshapes Priors \
@@ -25,3 +25,6 @@ L3D: Enhancing 2D Talking Portraits Synthesis Learning with Pitch information us
 
 Deformable gaussian splatting for 360 degree surface reconstruction \
 Wenhao Rao, **Yanming Yang**, He Wang* 
+
+# Projects
+[VR First Aid Training in Subway Station](https://github.com/2hiTee/COMP0113-Group-Project)
