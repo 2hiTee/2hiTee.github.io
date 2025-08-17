@@ -27,4 +27,5 @@ Deformable gaussian splatting for 360 degree surface reconstruction \
 Wenhao Rao, **Yanming Yang**, He Wang* 
 
 # Projects
-[VR First Aid Training in Subway Station](https://github.com/2hiTee/COMP0113-Group-Project)
+**VR First Aid Training in Subway Station** \
+Developed an immersive multiplayer VR training game for first aid using Meta’s Oculus Quest 2 and UCL’s Ubiq social VR platform on Unity 3D. Code are available at [here](https://github.com/2hiTee/COMP0113-Group-Project).
