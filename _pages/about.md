@@ -12,7 +12,7 @@ My name is Yanming Yang. I was a master student in Computer Graphics, Vision, Im
 I am currently a Research Assistant in [Westlake University](https://en.westlake.edu.cn) since September 2024, collaborating with Professor [Chi Zhang](https://icoz69.github.io).
 
 # Research Interests
-My current research interests focus on Neural Rendering(NeRF, 3DGS), Audio-Driven Talking Portrait, 3D reconstruction/Generation/Editing.
+My current research interests focus on 3D reconstruction/Generation/Editing.
 
 # Publications
 (* denotes corresponding author)
