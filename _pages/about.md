@@ -38,13 +38,9 @@ My current research interests focus on 3D reconstruction/Generation/Editing.
 </div>
 
 <div class="publication-item">
-  <div class="publication-image">
-    <img src="/images/l3d-preview.jpg" alt="L3D Preview">
-  </div>
   <div class="publication-content">
     <strong>L3D: Enhancing 2D Talking Portraits Synthesis Learning with Pitch information using 3D Blendshapes Priors</strong> <em>(UCL master thesis)</em><br>
     <strong>Yanming Yang</strong>, Ifat Yasin*<br>
-    <em>2024</em>
   </div>
 </div>
 
