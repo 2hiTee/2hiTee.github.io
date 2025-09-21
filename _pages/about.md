@@ -45,5 +45,15 @@ My current research interests focus on 3D reconstruction/Generation/Editing.
 </div>
 
 # Projects
-**VR First Aid Training in Subway Station**  
-Developed an immersive multiplayer VR training game for first aid using Meta's Oculus Quest 2 and UCL's Ubiq social VR platform on Unity 3D. Code are available at [here](https://github.com/2hiTee/COMP0113-Group-Project).
+
+<div class="publication-item">
+  <div class="publication-image">
+    <img src="/images/VRproject.jpg" alt="VR First Aid Training Project">
+  </div>
+  <div class="publication-content">
+    <strong>VR First Aid Training in Subway Station</strong><br>
+    Developed an immersive multiplayer VR training game for first aid using Meta's Oculus Quest 2 and UCL's Ubiq social VR platform on Unity 3D.<br>
+    <em>UCL Group Project, 2024</em><br>
+    <a href="https://github.com/2hiTee/COMP0113-Group-Project">GitHub Repository</a>
+  </div>
+</div>
