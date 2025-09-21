@@ -29,4 +29,112 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- Custom Publication Styling -->
+<style>
+.publication-item {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.publication-image {
+  flex-shrink: 0 !important;
+  width: 200px !important;
+  height: 150px !important;
+  margin-right: 20px !important;
+  margin-bottom: 0 !important;
+}
+
+.publication-image img {
+  width: 200px !important;
+  height: 150px !important;
+  object-fit: cover !important;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px !important;
+  transition: border-color 0.2s ease;
+  display: block !important;
+}
+
+.publication-item:hover .publication-image img {
+  border-color: #2196F3;
+}
+
+.publication-content {
+  flex: 1 !important;
+  line-height: 1.6;
+  min-width: 0; /* 防止文字溢出 */
+}
+
+.publication-content strong a {
+  color: #1976D2;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.publication-content strong a:hover {
+  text-decoration: underline;
+}
+
+.publication-content a {
+  color: #1976D2;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: rgba(33, 150, 243, 0.1);
+  margin-right: 8px;
+  transition: background 0.2s ease;
+}
+
+.publication-content a:hover {
+  background: rgba(33, 150, 243, 0.2);
+}
+
+/* 移动端也保持水平布局 */
+@media (max-width: 768px) {
+  .publication-item {
+    flex-direction: row !important;
+    padding: 15px;
+  }
+  
+  .publication-image {
+    width: 150px !important;
+    height: 100px !important;
+    margin-right: 15px !important;
+  }
+  
+  .publication-image img {
+    width: 150px !important;
+    height: 100px !important;
+  }
+  
+  .publication-content strong a {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .publication-item {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  
+  .publication-image {
+    margin-right: 0 !important;
+    margin-bottom: 15px !important;
+  }
+}
+</style>
+
 <!-- end custom head snippets -->
