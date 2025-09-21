@@ -23,6 +23,7 @@ My current research interests focus on 3D reconstruction/Generation/Editing.
   </div>
   <div class="publication-content">
     <strong><a href="https://worldforge-agi.github.io">WorldForge: Unlocking Emergent 3D/4D Generation in Video Diffusion Model via Training-Free Guidance</a></strong><br>
+    <a href="https://arxiv.org/abs/2509.15130">arXiv:2509.15130</a><br>
     Chenxi Song, <strong>Yanming Yang</strong>, Tong Zhao, Ruibo Li, Chi Zhang*<br>
   </div>
 </div>
@@ -33,6 +34,7 @@ My current research interests focus on 3D reconstruction/Generation/Editing.
   </div>
   <div class="publication-content">
     <strong><a href="https://flowdirector-edit.github.io">FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing</a></strong><br>
+    <a href="https://arxiv.org/abs/2506.05046">arXiv:2506.05046</a><br>
     Guangzhao Li, <strong>Yanming Yang</strong>, Chenxi Song, Chi Zhang*<br>
   </div>
 </div>
