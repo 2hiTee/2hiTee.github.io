@@ -40,7 +40,7 @@ My current research interests focus on 3D reconstruction/Generation/Editing.
 </div>
 
 <div class="publication-item">
-  <div class="publication-img">
+  <div class="publication-image">
     <img src="/images/blendshape.jpg" alt="Thesis">
   </div>
   <div class="publication-content">
