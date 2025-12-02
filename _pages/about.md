@@ -22,8 +22,8 @@ My current research interests focus on 3D reconstruction/Generation/Editing.
     <img src="/images/Fast3DCache.jpg" alt="Fast3DCache Preview">
   </div>
   <div class="publication-content">
-    <strong><a href="https://fast3dcache-agi.github.io">WorldForge: Unlocking Emergent 3D/4D Generation in Video Diffusion Model via Training-Free Guidance</a></strong><br>
-    <a href="https://arxiv.org/abs/2511.22533">arXiv:2509.15130</a><br>
+    <strong><a href="https://fast3dcache-agi.github.io">Fast3Dcache: Training-free 3D Geometry Synthesis Acceleration</a></strong><br>
+    <a href="https://arxiv.org/abs/2511.22533">arXiv:25011.22533</a><br>
     Mengyu Yang, <strong>Yanming Yang</strong>, Chenyi Xu, Chenxi Song, Yufan Zuo, Tong Zhao, Ruibo Li,Chi Zhang*<br>
   </div>
 </div>
