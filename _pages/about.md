@@ -23,7 +23,7 @@ My current research interests focus on 3D reconstruction/Generation/Editing.
   </div>
   <div class="publication-content">
     <strong><a href="https://fast3dcache-agi.github.io">Fast3Dcache: Training-free 3D Geometry Synthesis Acceleration</a></strong><br>
-    <a href="https://arxiv.org/abs/2511.22533">arXiv:25011.22533</a><br>
+    <a href="https://arxiv.org/abs/2511.22533">arXiv:2511.22533</a><br>
     Mengyu Yang, <strong>Yanming Yang</strong>, Chenyi Xu, Chenxi Song, Yufan Zuo, Tong Zhao, Ruibo Li,Chi Zhang*<br>
   </div>
 </div>
