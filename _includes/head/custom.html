@@ -1,0 +1,310 @@
+{% include base_path %}
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="{{ base_path }}/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ base_path }}/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ base_path }}/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ base_path }}/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ base_path }}/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="{{ base_path }}/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Custom Publication / Education Styling -->
+<style>
+/* ============================================================
+   Section headings — a thin rule under each section title
+   ============================================================ */
+.page__content h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #1f2933;
+  margin: 1.8em 0 0.7em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #e4e7eb;
+}
+
+/* ============================================================
+   Services — role label + venue list
+   ============================================================ */
+.page__content ul.svc {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.svc li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 0.94em;
+  border-bottom: 1px dashed #e7e9e5;
+}
+
+.svc li:last-child {
+  border-bottom: none;
+}
+
+.svc .role {
+  font-weight: 600;
+  color: #1f2933;
+  flex: 0 0 auto;
+}
+
+.svc .venues {
+  color: #6f7b87;
+}
+
+/* ============================================================
+   Publications — thumbnail on the left, metadata on the right
+   ============================================================ */
+.paper-item {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 22px;
+  padding: 20px 0;
+  margin: 0;
+  border-top: 1px solid #eef0ec;
+  transition: background-color 0.2s ease;
+}
+
+/* 每个 section 的第一条不画上边框 */
+.page__content h1 + .paper-item {
+  border-top: none;
+  padding-top: 6px;
+}
+
+.paper-item:hover {
+  background: rgba(25, 118, 210, 0.03);
+}
+
+.paper-media {
+  flex: 0 0 210px !important;
+  width: 210px !important;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #e4e7eb;
+  background: #f1f3f1;
+  margin: 0 !important;
+}
+
+.paper-media img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.paper-body {
+  flex: 1 1 auto !important;
+  min-width: 0; /* 防止长标题撑破布局 */
+}
+
+.paper-title {
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #202b36;
+  margin-bottom: 7px;
+}
+
+.paper-title a {
+  color: #1565c0;
+  text-decoration: none;
+}
+
+.paper-title a:hover {
+  text-decoration: underline;
+}
+
+.conf-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background: #e8f1fb;
+  color: #1565c0;
+  margin-bottom: 8px;
+}
+
+.conf-badge.highlight {
+  background: #fff1e8;
+  color: #a84f20;
+  border: 1px solid #ffd6bf;
+}
+
+.conf-badge.muted {
+  background: #f0f1f2;
+  color: #5b6670;
+}
+
+.paper-authors {
+  font-size: 0.92em;
+  line-height: 1.55;
+  color: #4c5966;
+  margin-bottom: 8px;
+}
+
+.paper-authors strong,
+.paper-authors b {
+  color: #1f2933;
+  font-weight: 700;
+}
+
+.paper-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 14px;
+  font-size: 0.82em;
+  font-weight: 700;
+  color: #6f7b87;
+  text-decoration: none;
+}
+
+.paper-links a:hover {
+  color: #1565c0;
+  text-decoration: none;
+}
+
+/* ============================================================
+   Education — logos | degree | dates
+   ============================================================ */
+.edu-row {
+  display: grid;
+  grid-template-columns: 120px 1fr auto;
+  align-items: center;
+  column-gap: 18px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eef0ec;
+}
+
+.edu-row:last-child {
+  border-bottom: none;
+}
+
+.edu-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 校徽在 logo 列内水平居中 */
+  gap: 11px;
+}
+
+.edu-logos img {
+  height: 46px;
+  width: auto;
+  display: block;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* horizontal lockup logos read better a touch shorter */
+.edu-logos img.wordmark {
+  height: 30px;
+}
+
+.edu-main {
+  min-width: 0;
+}
+
+.edu-main .h {
+  font-weight: 600;
+  color: #1f2933;
+}
+
+.edu-main .sub {
+  color: #6f7b87;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.edu-main .sub a {
+  color: #1565c0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.edu-main .sub a:hover {
+  text-decoration: underline;
+}
+
+.edu-when {
+  color: #8a949e;
+  font-size: 0.88em;
+  white-space: nowrap;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============================================================
+   Small screens
+   ============================================================ */
+@media (max-width: 768px) {
+  .paper-item {
+    gap: 16px;
+  }
+
+  .paper-media {
+    flex: 0 0 150px !important;
+    width: 150px !important;
+  }
+
+  .paper-title {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .edu-row {
+    grid-template-columns: 1fr auto;
+  }
+
+  .edu-logos {
+    display: none; /* 小屏隐藏校徽，保持行整洁 */
+  }
+}
+
+@media (max-width: 480px) {
+  .paper-item {
+    flex-direction: column !important;
+  }
+
+  .paper-media {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+}
+</style>
+
+<!-- end custom head snippets -->

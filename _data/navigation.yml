@@ -1,0 +1,26 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/
+
+  # 外链到 Hexo 技术博客（独立仓库 2hiTee/Blogs）
+  - title: "Blog"
+    url: https://2hiTee.github.io/Blogs/
+
+  # - title: "Talks"
+  #   url: /talks/    
+
+  # - title: "Teaching"
+  #   url: /teaching/    
+    
+  # - title: "Portfolio"
+  #   url: /portfolio/
+        
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+    
+  # - title: "CV"
+  #   url: /cv/
+    
+  # - title: "Guide"
+  #   url: /markdown/
